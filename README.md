@@ -1,1 +1,1 @@
-# Landing Page-SIBAS.github.io
+# LandingPage-SIBAS.github.io
