@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page With Light/Dark Mode</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+    <main>
+      <div class="big-wrapper light">
+        <img src="./img/1s.png" alt="" class="shape" />
+
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/s.png" alt="Logo" />
+              <h3>SIBAS</h3>
+            </div>
+
+            <div class="links">
+              <ul>
+                <li><a href="projeto.html">Projeto</a></li>
+                <li><a href="sobre-nos.html">Sobre Nós</a></li>
+                <li><a href="index.html" class="btn">Inicio</a></li>
+                <!-- Move toggle button here -->
+                <li><button class="toggle-btn">
+                  <i class="far fa-moon"></i>
+                  <i class="far fa-sun"></i>
+                </button></li>
+              </ul>
+            </div>
+
+            <div class="overlay"></div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </header>
+
+        <div class="showcase-area">
+          <div class="container">
+            <div class="left">
+              <div class="big-title">
+                <h1>Sejam Bem-vindo ao SIBAS! </h1>
+              </div>
+              <p class="text">
+                No ritmo acelerado da vida moderna, o acesso a informações rápidas e eficientes é essencial.
+                Ao buscar um aplicativo sobre UBS, identificamos a necessidade de fornecer 
+                informações imediatas sobre os serviços oferecidos, especialmente
+                para aqueles que não têm tempo para visitas presenciais. 
+                A capacidade de obter informações rápidas pode fazer
+                uma diferença significativa na vida de quem tem uma rotina agitada.      
+              </p>
+              <div class="cta">
+                <a href="#" class="cta"><i class="fa-brands fa-whatsapp" style="font-size: 2rem; margin-right: 1rem; color: rgb(68, 198, 238);"></i></a>
+                <a href="#" class="cta"><i class="fa-solid fa-envelope" style="font-size: 2rem; margin-right: 1rem; color: rgb(68, 198, 238);"></i></a>
+                <a href="#" class="cta"><i class="fa-brands fa-instagram" style="font-size: 2rem; margin-right: 1rem; color: rgb(68, 198, 238);"></i></a>
+                <a href="#" class="cta"><i class="fa-brands fa-github" style="font-size: 2rem; margin-right: 1rem; color: rgb(68, 198, 238);"></i></a>
+              </div>
+            </div>
+
+            <div class="right">
+              <img src="./img/h.png" alt="Person Image" class="person" />
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-area">
+          <div class="container">
+            <!-- Remove the old toggle button here -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- JavaScript Files -->
+
+    <script src="./app.js"></script>
+  </body>
+</html>
